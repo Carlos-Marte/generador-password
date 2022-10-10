@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Font */
+    --font: 'Montserrat', sans-serif;
+
+    /* Colors */
+    --fondo: #FFFFFF;
+    --blanco-oscuro: #F5F3F4;
+    --color-texto: #161A1D;
+    --rojo: #BA181B;
+    --rojo-claro: #E5383B;
+}
