@@ -27,7 +27,13 @@
 
 <body>
     <div class="contenedor">
-        <p id="p-password" class="password-generada">¡Presiona generar!</p>
+        <div class="password">
+            <p id="p-password" class="password__password-generada">¡Presiona generar!</p>
+            <button id="clipboard-boton" class="password__clipboard-boton">
+                <img src="./images/clipboard.svg" alt="Icon clipboard" class="password__icon">
+            </button>
+        </div>
+        
         <div class="rango">
             <input type="range" min="5" max="15" value="5" id="input-range" class="rango__input">
             <output class="rango__output">Longitud: 5</output>
