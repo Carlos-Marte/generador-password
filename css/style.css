@@ -141,7 +141,9 @@ input[type="range"]:focus::-moz-range-thumb {
 }
 
 .contenedor__boton:hover {
-    cursor:pointer;
+    cursor: pointer;
     background: var(--rojo-claro);
     outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
