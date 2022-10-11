@@ -129,9 +129,13 @@ input[type="range"]:focus::-moz-range-thumb {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .5px;
-    border: 1px solid var(--color-texto);
+    outline: 1px solid var(--color-texto);
+    border: none;
+    transition: background .2s ease;
 }
 
 .contenedor__boton:hover {
     cursor:pointer;
+    background: var(--rojo-claro);
+    outline: none;
 }
