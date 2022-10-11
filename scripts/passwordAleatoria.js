@@ -10,5 +10,3 @@ export const generarPassword = (longitud) => {
 
     return passwordGenerada;
 }
-
-console.log(generarPassword(15));
