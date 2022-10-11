@@ -27,18 +27,23 @@
 
 <body>
     <div class="contenedor">
+        <!-- Password generada y clipboard -->
         <div class="password">
             <p id="p-password" class="password__password-generada">¡Presiona generar!</p>
             <button id="clipboard-boton" class="password__clipboard-boton">
                 <img src="./images/clipboard.svg" alt="Icon clipboard" class="password__icon">
             </button>
         </div>
-        
+
+        <!-- Rango del input range -->
         <div class="rango">
             <input type="range" min="5" max="15" value="5" id="input-range" class="rango__input">
             <output class="rango__output">Longitud: 5</output>
         </div>
+
+        <!-- Botones de generar y reiniciar -->
         <button id="input-boton" class="contenedor__boton">Generar</button>
+        <button class="contenedor__boton contenedor__boton--reiniciar">Reiniciar</button>
     </div>
 </body>
 

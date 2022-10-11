@@ -91,6 +91,7 @@ body {
     width: 100%;
 }
 
+/* Input range styles */
 input[type="range"] {
     -webkit-appearance: none;
     appearance: none;
@@ -154,7 +155,7 @@ input[type="range"]:focus::-moz-range-thumb {
     font-size: 1.1rem;
 }
 
-
+/* Botones */
 .contenedor__boton {
     margin-top: 1rem;
     padding: .6rem 1rem;
@@ -178,6 +179,11 @@ input[type="range"]:focus::-moz-range-thumb {
 .contenedor__boton:active {
     background: var(--rojo-oscuro);
 }
+
+.contenedor__reiniciar:hover {
+    text-decoration: underline;
+}
+
 
 /* Desktop */
 @media only screen and (min-width: 1280px) {
