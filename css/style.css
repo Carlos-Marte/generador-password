@@ -178,3 +178,18 @@ input[type="range"]:focus::-moz-range-thumb {
 .contenedor__boton:active {
     background: var(--rojo-oscuro);
 }
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    .password__password-generada {
+        font-size: 1.4rem;
+    }
+
+    .rango__output {
+        font-size: 1.2rem;
+    }
+
+    .contenedor__boton {
+        padding: .6rem 1.5rem;
+    }
+}
