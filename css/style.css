@@ -15,3 +15,43 @@
     --rojo: #BA181B;
     --rojo-claro: #E5383B;
 }
+
+body {
+    width: 100%;
+    max-width: 768px;
+    height: 100vh;
+    background: var(--fondo);
+    color: var(--color-texto);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    background: var(--blanco-oscuro);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.password-generada {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: .2rem .5rem;
+    border: 1px solid var(--color-texto);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
