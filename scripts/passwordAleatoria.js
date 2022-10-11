@@ -4,7 +4,7 @@ export const generarPassword = (longitud) => {
     let passwordGenerada = "";
 
     for(let i = 0; i < longitud; i++) {
-        let numRandom = Number.parseInt(Math.random() * (CARACTERES.length - 1 + 1) + 1);
+        let numRandom = Number.parseInt(Math.random() * (CARACTERES.length - 1) + 1);
         passwordGenerada += CARACTERES[numRandom];
     }
 
