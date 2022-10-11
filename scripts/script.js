@@ -5,9 +5,9 @@ const inputBoton = document.querySelector("#input-boton");
 const pPassword = document.querySelector("#p-password");
 
 inputRange.addEventListener('input', () => {
-    const longitudP = inputRange.nextElementSibling;
+    const longitudOutput = inputRange.nextElementSibling;
 
-    longitudP.innerHTML = `Longitud: ${inputRange.value}`;
+    longitudOutput.innerHTML = `Longitud: ${inputRange.value}`;
 }, false);
 
 inputBoton.addEventListener('click', () => {
