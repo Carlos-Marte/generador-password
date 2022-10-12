@@ -7,9 +7,6 @@ la contraseña.
 
 :pushpin: Se puede reiniciar si ya no se quiere la contraseña generada.
 
----
-
-___
 
 ## :camera: Imágenes
 
