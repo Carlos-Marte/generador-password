@@ -7,7 +7,7 @@ la contraseña.
 
 :pushpin: Se puede reiniciar si ya no se quiere la contraseña generada.
 
-:link: Página: https://generador-password-carlosmartedev.netlify.app/
+:link: Página: <a href="https://generador-password-carlosmartedev.netlify.app/" target="_blank">https://generador-password-carlosmartedev.netlify.app/</a>
 
 
 ## :camera: Imágenes
