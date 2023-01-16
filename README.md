@@ -1,6 +1,6 @@
 # GENERADOR DE CONTRASEÑAS
 
-:pushpin: Es un proyecto simple sobre el manejo del DOM. Esta realizado usando `<HTML>`, `<CSS>` y `<JS>`.
+:pushpin: Es un proyecto simple sobre el manejo del DOM. Está realizado usando `<HTML>`, `<CSS>` y `<JS>`.
 
 :pushpin: Se puede elegir el tamaño de la contraseña (del 1 al 15) y generarla. También existe botón para copiar automáticamente
 la contraseña.
